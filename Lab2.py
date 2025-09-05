@@ -4,6 +4,9 @@
 def calculate_height(h0, t):
     # TODO: Implement this function
     pass  # Replace with your code
+    g=9.8
+    height= h0 - 0.5 * g * t**2
+    return round(height,1)
 
 # Function 2: Calculate the distance traveled by the car
 # This function should take the time t as input and return the distance traveled by the car.
